@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido</title>
+</head>
+<body>
+    <h1>Llena el formulario y haz tu pedido c:</h1>
+    <form action="/accion.js" id="form1" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+        <label for="Telefono">telefono:</label>
+        <input type="tel" id="telefono" name="telefono"><br><br>
+        <label for="Correo">correo:</label>
+        <input type="email" id="correo" name="correo"><br><br>
+        <h2>¿Que sabor o sabores vas a pedir?</h2>
+        
+        <input type="checkbox" id="Topping1" name="Topping1" value="Cafe">
+        <label for="Topping1">Cafe</label><br>
+        <input type="checkbox" id="Topping2" name="Topping2" value="Chocolate">
+        <label for="Topping2">Chocolate</label><br>
+        <input type="checkbox" id="Topping3" name="Topping3" value="Vainilla">
+        <label for="Topping3">Vainilla</label><br>
+        <input type="checkbox" id="Topping4" name="Topping4" value="Capuchino">
+        <label for="Topping4">Capuchino</label><br>
+
+        <h2>¿Que decoracion quieres? puedes pedir mas de una c;</h2>
+        
+        <input type="checkbox" id="Topping5" name="Topping5" value="Galaxia">
+        <label for="Topping5">Galaxia</label><br>
+        <input type="checkbox" id="Topping6" name="Topping6" value="Spiderman">
+        <label for="Topping6">Spiderman</label><br>
+        <input type="checkbox" id="Topping7" name="Topping7" value="Cumpleaños">
+        <label for="Topping7">Cumpleaños</label><br>
+        <input type="checkbox" id="Topping8" name="Topping8" value="Felicitaciones">
+        <label for="Topping8">Felicitaciones</label><br>
+        
+        
+        <label for="Descripcion">Descripcion:</label>
+        <input type="text" id="Descripcion" name="Descripcion"><br><br>
+        
+        <input type="submit" value="Submit">
+        <input type="reset">
+    </form>
+
+</body>
+</html>
